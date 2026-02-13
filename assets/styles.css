@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a.active {
+  background: #ff6b6b;
+}
+
+nav a:hover {
+  background: #4ecdc4;
+}
+
+.container {
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  margin-top: 20px;
+}
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover {
+  background: #ff4757;
+}
